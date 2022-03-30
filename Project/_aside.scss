@@ -1,0 +1,130 @@
+
+@include for_desktop_up{
+
+  .latest-articles-aside{
+    margin-bottom: 10rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    .title__latest-articles{
+      font-size: 2.2rem;
+      
+    }
+  }
+
+  .contCards-lastArticles__latest-articles{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    
+  }
+  .card-lastArticles__latest-articles{
+    flex-basis: 23%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    
+
+    .image__card-lastArticles{
+      object-fit: cover;
+      background: center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      border-radius: .3rem;
+      transition: all 400ms;
+      &:hover{
+        transform: scale(1.0500);
+      }
+    }
+  }
+  .article__cardLastArticles{
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    gap: .8rem;
+
+    .title-article__cardLastArticles{
+      font-size: 1.4rem;
+    }
+    .parrafo__cardLastArticles{
+
+      font-weight: 300;
+
+    }
+    
+  }
+
+}
+
+
+
+
+
+
+
+// For mobile
+
+
+
+@include for_mobile{
+
+  .latest-articles-aside{
+    margin-bottom: 10rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    .title__latest-articles{
+      font-size: 2rem;
+      text-align: center;
+      
+    }
+  }
+
+  .contCards-lastArticles__latest-articles{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    
+  }
+  .card-lastArticles__latest-articles{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    
+
+    .image__card-lastArticles{
+      object-fit: cover;
+      background: center no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      border-radius: .3rem;
+      transition: all 300ms;
+    }
+  }
+  .article__cardLastArticles{
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    gap: .8rem;
+
+    .title-article__cardLastArticles{
+      font-size: 1.2rem;
+    }
+    .parrafo__cardLastArticles{
+      font-weight: 300;
+    }
+    
+  }
+
+}

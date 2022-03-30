@@ -1,0 +1,149 @@
+
+@include for_desktop_up {
+
+  .footer{
+    width: 100%;
+    height: auto;
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $dark-Blue ;
+  }
+  .row-cont__footer{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8rem;
+  }
+
+  .logo-socials__footer{
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+  }
+  .brand__footer{
+    filter: brightness(300%) contrast(300%) opacity(.9);
+  }
+
+  .socials__footer{
+    display: flex;
+    flex-direction: row;
+    gap:1.2rem;
+
+    .icon-social__footer-socials{
+      height: 25px;
+    }
+  }
+
+  .info__footer{
+    padding: .2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    gap: 1.2rem;
+
+    .item-link__footer{
+      color: $Light-Grayish-Blue ;
+      transition: all 300ms;
+      &:hover{
+        color:  $Lime-Green ;
+      }
+    }
+  }
+  .info2__footer {
+    flex: 1;
+  }
+  .info__footer--request{
+    align-items: center;
+   justify-content: space-around;
+  }
+
+  .cite__footer{
+    color:  $Grayish-Blue ;
+    font-weight: 300;
+  }
+}
+
+
+
+
+@include for_mobile {
+
+  .footer{
+    width: 100%;
+    height: auto;
+    padding: 4rem 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $dark-Blue ;
+    
+  }
+  .row-cont__footer{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .logo-socials__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+  .brand__footer{
+    filter: brightness(300%) contrast(300%) opacity(.9);
+  }
+
+  .socials__footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:1.2rem;
+
+    .icon-social__footer-socials{
+      height: 25px;
+    }
+  }
+
+  .info__footer{
+    text-align: center;
+    padding: .2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    gap: 1.2rem;
+
+    .item-link__footer{
+      color: $Light-Grayish-Blue ;
+      transition: all 300ms;
+      &:hover{
+        color:  $Lime-Green ;
+      }
+    }
+  }
+  .info2__footer {
+    flex: 1;
+  }
+  .info__footer--request{
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .cite__footer{
+    color:  $Grayish-Blue ;
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,16 @@
+//  Breakpoint Desktop
+
+
+@mixin  for_desktop_up {
+  @media  (min-width: 767px) and (max-width:2600px) {
+    @content;
+  }
+}
+
+//  Breakpoint Mobile
+@mixin  for_mobile {
+  @media  (min-width: 200px) and (max-width:768px) {
+    @content;
+  }
+}
+
